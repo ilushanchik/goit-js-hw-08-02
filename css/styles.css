@@ -1,0 +1,21 @@
+.gallery {
+display: flex;
+flex-wrap: wrap;
+
+}
+.gallery-image {
+   margin: 10px;
+}
+
+
+.basicLightbox {
+  background: rgba(0, 0, 0, 0.8); /* затемнение */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.basicLightbox__placeholder {
+  max-width: 90%;
+  max-height: 90%;
+}
